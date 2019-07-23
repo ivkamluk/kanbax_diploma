@@ -1,0 +1,192 @@
+QLabel#labelOr
+{
+        font-size:15px;
+        color:lavender;
+}
+
+QLineEdit#editlineUsernameSignIn, #editlinePasswordSignIn,
+#editlineUsernameSignUp, #editlineEmailSignUp, #editlinePasswordSignUp,
+#editlineForgotPassword
+{
+        background: transparent;
+        border-bottom:1px solid white;
+        border-radius:2px;
+        height:30px;
+        color:white;
+        font-size:15px;
+}
+
+QPushButton#buttonFacebook, #buttonGoogle
+{
+        background-color: lavender;
+        height:40;
+        border-radius: 15px;
+        border:2px solid white;
+        color:black;
+        font-size:16px;
+        font-family: "Comic Sans MS";
+}
+
+QPushButton#buttonFacebook:pressed, #buttonGoogle:pressed
+{
+        background-color:yellow;
+}
+
+
+QPushButton#buttonFacebook:hover, #buttonGoogle:hover
+{
+        border:1px solid grey;
+}
+
+QPushButton#buttonSignIn, #buttonSignUp, #buttonResetPassword
+{
+        background-color:white;
+        border-radius: 15px;
+        height:30;
+        font-size:14px;
+        font-family: "Verdana";
+}
+
+QPushButton#buttonSignUp
+{
+        border-radius: 14px;
+        height:34;
+}
+
+QPushButton#buttonSignIn:pressed, #buttonSignUp:pressed, #buttonResetPassword:pressed
+{
+        background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(12, 120,163,70),
+        stop:1 rgba(255, 53,184,43));
+        color:white;
+        border: 2px solid white;
+}
+
+QLabel#labelErrorUsernameSignUp, #labelErrorEmailSignUp,
+#labelErrorPasswordSignUp, #labelErrorCountrySignUp
+{
+   font-size:10px;
+   padding-top:7px;
+   color:black;
+}
+
+ExtendedLabel#buttonForgotPassword, #buttonBackToSign
+{
+   color:lavender;
+   text-decoration: underline;
+}
+
+QLabel#labelForgotPassword
+{
+  color:lavender;
+  font-size:15px;
+}
+
+QLabel#labelErrorSignIn
+{
+  color:black;
+  font-size:15px;
+}
+
+QComboBox#comboboxCountry
+{
+    combobox-popup: 0;
+    color:lavender;
+    background-color:transparent;
+    min-height:22px;
+    font-size:15px;
+    margin-left:4px;
+}
+
+QComboBox#comboboxCountry QAbstractItemView {
+   background-color:white;
+   border-radius:5px;
+}
+
+QCheckBox#checkboxRemember
+{
+        height:10px;
+        color:lavender;
+        font-size:13px;
+        font-weight: bold;
+        spacing:5px;
+}
+
+QCheckBox#checkboxRemember::indicator:unchecked
+{
+        image: url(:/image/Image/checkbox_unchecked.png);
+}
+
+QCheckBox#checkboxRemember::indicator:checked
+{
+        image: url(:/image/Image/checkbox_checked.png);
+}
+
+QTabBar#tabSignBar::tab {
+        height:18px;
+        color:white;
+        margin-bottom:10px;
+        font:bold "Comic Sans MS";
+        font-size:15px;
+}
+
+QTabBar#tabSignBar::tab:selected {
+    border-bottom:1px solid yellow;
+}
+
+QTabBar#tabSignBar::tab:!selected {
+        color:lavender;
+        background-color:transparent;
+}
+
+QTabBar#tabSignBar::tab:!selected:hover {
+    color:white;
+}
+
+QTabBar#tabSignBar::tab:top, QTabBar#tabSignBar::tab:bottom {
+    min-width: 15ex;
+    padding: 0px 5px 10px 5px;
+}
+
+QScrollBar:vertical
+{
+    border-radius:3px;
+    width: 9px;
+    max-height:200px;
+    background:transparent;
+}
+
+QScrollBar::handle:vertical
+{
+    background:#865D9E;
+    border-radius:3px;
+    min-height:50px;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical
+ {
+   background:transparent;
+ }
+
+QScrollBar::sub-line:vertical
+{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    background:transparent;
+}
+
+QScrollBar::add-line:vertical
+{
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    background:transparent;
+}
+
+QWidget#widgetSign
+{
+    background:transparent;
+}
+
+QWidget#scrollArea
+{
+    background:transparent;
+}

@@ -1,0 +1,93 @@
+QWidget#widgetBackground
+{
+    background:#E0DED5;
+    border-radius:5px;
+}
+
+QWidget#widgetBackground:hover
+{
+   background: #F6F6F3;
+}
+
+QWidget#widgetTaskTop
+{
+    border-bottom: 1px solid white;
+    background:#2ecc71;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+QLabel#labelImageDescriptionEnb
+{
+    border-image: url(":/image/Image/task_description_enabled.png");
+}
+
+QLabel#labelTaskName
+{
+    font-size:12px;
+    color: #6B6B6B;
+    font-weight:bold;
+}
+
+#comboBoxTask
+{
+    font-size:13px;
+    font-weight:bold;
+    color:white;
+}
+
+QComboBox#comboBoxTask::item {
+    color:black;
+    background:transparent;
+    selection-color: #865D9E;
+}
+
+#labelImageDone
+{
+  border-image:url(":/image/Image/taskdone_byuser.png");
+}
+
+#labelConfirmationText
+{
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonConfirmNo
+{
+    background-color:transparent;
+    color:black;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonConfirmNo:pressed
+{
+    color: #423D3B;
+}
+
+#buttonConfirmYes
+{
+    background-color:#9b59b6;
+    color:white;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonConfirmYes:hover
+{
+    background-color:#773e8e;
+}
+
+#buttonConfirmYes:pressed
+{
+   background-color:#4b2759;
+}
+
+
+
+

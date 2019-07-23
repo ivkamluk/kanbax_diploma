@@ -1,0 +1,127 @@
+QLabel#labelEmptyBoardsWidget
+{
+    font:20px "Andale Mono";
+    color:white;
+}
+
+ExtendedLabel#labelImageEditBoard
+{
+    border-image:url(":/image/Image/editboard.png");
+}
+
+ExtendedLabel#labelImageEditBoard:hover
+{
+    border-image:url(":/image/Image/editboard_hover.png");
+}
+
+QLabel#labelBoardName
+{
+    font:14px;
+    color:white;
+}
+
+QWidget#widgetColumnToDo
+{
+    background:lavender;
+    border-radius:10px;
+}
+
+QWidget#widgetColumnDoing
+{
+    background:lavender;
+    border-radius:10px;
+}
+
+QWidget#widgetColumnDone
+{
+    background:lavender;
+    border-radius:10px;
+}
+
+QWidget#widgetHeaderToDo
+{
+    background:#DEFEFC;
+    border-radius:10px;
+}
+
+QWidget#widgetHeaderDoing
+{
+    background:#FAFCC7;
+    border-radius:10px;
+}
+
+QWidget#widgetHeaderDone
+{
+    background:#D1F7B0;
+    border-radius:10px;
+}
+
+QLabel#labelHeaderToDo
+{
+    font:16px;
+    font-weight:bold;
+    color:black;
+}
+
+QLabel#labelHeaderDoing
+{
+    font:16px;
+    font-weight:bold;
+    color:black;
+}
+
+QLabel#labelHeaderDone
+{
+    font:16px;
+    font-weight:bold;
+    color:black;
+}
+
+ExtendedLabel#labelImageAddTask
+{
+    border-image:url(":/image/Image/add_task.png");
+}
+
+ExtendedLabel#labelImageAddTask:hover
+{
+    border-image:url(":/image/Image/add_task_hover.png");
+}
+
+ExtendedLabel#labelImageAddTask:pressed
+{
+    border-image:url(":/image/Image/add_task_pressed.png");
+}
+
+QLabel#labelImageTasksAccptDone
+{
+    border-image:url(":/image/Image/tasks_accpt_done.png");
+}
+
+QLabel#labelImageTasksWaitDone
+{
+    border-image:url(":/image/Image/tasks_wait_done.png");
+}
+
+QLabel#labelImageTipAddTask
+{
+    border-image:url(":/image/Image/tip_addtask.png");
+}
+
+QLabel#labelTipAddTask
+{
+    color:gray;
+    font-size:13px;
+    font-weight:bold;
+}
+
+QLabel#labelImageMoveTask
+{
+    border-image:url(":/image/Image/tip_movetask.png");
+}
+
+QLabel#labelTipMoveTask
+{
+    color:gray;
+    font-size:13px;
+    font-weight:bold;
+}

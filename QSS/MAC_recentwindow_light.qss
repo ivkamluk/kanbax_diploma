@@ -1,0 +1,141 @@
+#labelLastBoards
+{
+        font-size:15px;
+        color:white;
+        font-family: "Andale Mono";
+}
+
+QPushButton#buttonAllBoards
+{
+        border-image:url(":/image/Image/button_allboards.png");
+}
+
+#vecWidgetBoards
+{
+    border-radius:15px;
+    border:2px solid yellow;
+}
+
+#vecWidgetBoards:hover
+{
+    border:2px solid white;
+    background:#865D9E;
+}
+
+#vecLabelNameBoards
+{
+        color:white;
+        font: 26px;
+        font-family: "Andale Mono";
+        margin-top:40px;
+}
+
+#vecLabelCreatedBoards
+{
+        font-size:12px;
+        font-weight:normal;
+        color:lavender;
+        font-weight:bold;
+        margin-top:10px;
+}
+
+#vecLabelDateBoards
+{
+        color:black;
+        font-size:12px;
+        font: bold "Comic Sans MS";
+        margin-top:5px;
+        background:lavender;
+        border-radius:5px;
+}
+
+#vecLabelRemoveBoards
+{
+    border-image:url(":/image/Image/remove_board.png");
+}
+
+#vecLabelRemoveBoards:hover
+{
+    border-image:url(":/image/Image/remove_board_hover.png");
+}
+
+QPushButton#buttonCreateBoard
+{
+        border-image:url(":/image/Image/button_create_board.png");
+}
+
+#labelCreateBoard
+{
+        color:#e6ffe6;
+        font: bold 19px "Andale Mono";
+}
+
+#widgetCreateBoard
+{
+        border-radius:30px;
+        background-color: #00e600;
+}
+
+#widgetCreateBoard:hover
+{
+        background-color:#00cc00;
+}
+
+QLabel#labelHtaskMain
+{
+        padding-left:50px;
+        font-size:15px;
+        color:white;
+        font-family: "Andale Mono";
+}
+
+QWidget#widgetHtaskTable
+{
+   border-top:1px solid lavender;
+}
+
+QLabel#vecLabelHtaskNames
+{
+        color:white;
+        font: normal 17px "Lucida Console";
+}
+
+QLabel#vecLabelHtaskNames:hover
+{
+        color:yellow;
+}
+
+#vecHtaskProgressbars::chunk {
+        background-color:#ffb366;
+        border-radius: 10px;
+}
+
+#vecHtaskProgressbars{
+        background-color: lavender;
+        border-radius: 10px;
+        text-align:center;
+        font-weight:bold;
+}
+
+QLabel#vecHtaskBoardNames
+{
+        font: normal 13px "Lucida Console";
+        color:lavender;
+}
+
+QLabel#vecHtaskBoardNames:hover
+{
+        color:white;
+}
+
+QLabel#labelEmptyBoards1
+{
+    font:20px "Andale Mono";
+    color:white;
+}
+
+QLabel#labelEmptyBoards2
+{
+    font:17px "Andale Mono";
+    color:lavender;
+}

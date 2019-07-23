@@ -1,0 +1,67 @@
+QFrame#frame
+{
+    background: #2d2d2d;
+    border-radius:15px;
+    border:2px solid yellow;
+}
+
+QMenu
+{
+    border-radius:5px;
+    background:rgb(236,236,236);
+}
+
+QMenu::item:selected
+{
+   color:white;
+   background-color:rgb(66,120,245);
+}
+
+QLabel#labelTitleCreate
+{
+    font: bold 14px "Verdana";
+    color:white;
+}
+
+QLineEdit#editlineCreate
+{
+    background: transparent;
+    border-bottom:1px solid gray;
+    border-radius:1px;
+    height:30px;
+    color:white;
+    font-size:15px;
+}
+
+QPushButton#buttonCancel
+{
+    color:#bdbdbd;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+QPushButton#buttonCancel:hover
+{
+     color:#CFCFCF;
+}
+
+QPushButton#buttonOk
+{
+    background-color:yellow;
+    color:black;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+QPushButton#buttonOk:disabled
+{
+    background-color:#d9d9d9;
+    border:whie;
+}
+
+QPushButton#buttonOk:pressed
+{
+    background-color:#D1D100;
+}

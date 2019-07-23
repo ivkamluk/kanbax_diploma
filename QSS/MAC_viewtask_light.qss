@@ -1,0 +1,207 @@
+QFrame#frameViewTask
+{
+    background:#BD90D2;
+    border-radius:5px;
+}
+
+QLabel#labelDialogName
+{
+    background:yellow;
+    color:black;
+    font-size:15px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    font-weight:bold;
+}
+
+QMenu
+{
+    border-radius:5px;
+    background:rgb(236,236,236);
+}
+
+QMenu::item:selected
+{
+   color:white;
+   background-color:rgb(66,120,245);
+}
+
+#labelTaskStatus
+{
+    font-weight:bold;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    border-radius: 5px;
+}
+
+#labelTextStartTime, #labelTextEndTime
+{
+    color: white;
+    font-size: 12px;
+}
+
+#labelTaskEndTime, #labelTaskStartTime
+{
+  font-size: 13px;
+  font-weight:bold;
+}
+
+#frameVLine
+{
+   color:#CFAEDE;
+}
+
+#labelTextTaskName, #labelTextTaskDescription
+{
+    color: black;
+}
+
+QLineEdit#editlineTaskName
+{
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-bottom:1px solid #9b59b6;
+    background:transparent;
+    font-size:14px;
+}
+
+QLineEdit#editlineTaskName:focus
+{
+    border-bottom:2px solid #9b59b6;
+}
+
+QTextEdit#textTaskDescription
+{
+    color: white;
+    border-radius:3px;
+    border:1px solid #9b59b6;
+    font-size:14px;
+    font-weight:bold;
+    background: transparent;
+}
+
+QTextEdit#textTaskDescription:focus
+{
+    border: 2px solid #9b59b6;
+}
+
+#labelRemoveTask
+{
+    font-size:13px;
+    color: white;
+    font-weight:bold;
+}
+
+#labelRemoveTask:hover
+{
+    color: #9b59b6;
+}
+
+#labelImageRemoveTask
+{
+    border-image:url(":/image/Image/trash_board.png");
+}
+
+#labelImageRemoveTask:hover
+{
+    border-image:url(":/image/Image/trash_board_hover.png");
+}
+
+#buttonClose
+{
+    background-color:transparent;
+    color:black;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonClose:pressed
+{
+    color: #423D3B;
+}
+
+#buttonSave
+{
+    background-color:#9b59b6;
+    color:white;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+    text-align:right;
+}
+
+#buttonSave:hover
+{
+    background-color:#773e8e;
+}
+
+#buttonSave:pressed
+{
+   background-color:#4b2759;
+}
+
+#buttonSave:disabled
+{
+    background-color:#d9d9d9;
+    border:white;
+}
+
+QLabel#labelAlert
+{
+    font-size:11px;
+    text-align:center;
+    font-weight:bold;
+    padding:10px 10px 10px 10px;
+    border-radius:5px;
+    background: #F7BAA8;
+}
+
+QScrollBar:horizontal
+{
+    height:9px;
+}
+
+QScrollBar::handle:horizontal
+{
+    background:#865D9E;
+    border-radius:3px;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    background:none;
+}
+
+QScrollBar::add-line:horizontal
+{
+    background:none;
+}
+
+QScrollBar:vertical
+{
+    width: 9px;
+}
+
+QScrollBar::handle:vertical
+{
+    background:#865D9E;
+    border-radius:3px;
+}
+
+QScrollBar::sub-line:vertical
+{
+    background:none;
+}
+
+QScrollBar::add-line:vertical
+{
+    background:none;
+}

@@ -1,0 +1,44 @@
+QWidget#widgetTask
+{
+    background:#FFFFFF;
+    border-radius:5px;
+    border:1px solid #865D9E;
+}
+
+QWidget#widgetTask:hover
+{
+    background: #F5F5FD;
+}
+
+QWidget#widgetTaskTop
+{
+    border-bottom: 1px solid lavender;
+    border-radius:4px;
+}
+
+QLabel#labelImageDescriptionEnb
+{
+    border-image: url(":/image/Image/task_description_enabled.png");
+}
+
+QLabel#labelTaskName
+{
+    font-size:14px;
+}
+
+#comboBoxTask
+{
+    font-size:13px;
+    font-weight:bold;
+    min-height:20px;
+}
+
+QComboBox#comboBoxTask QAbstractItemView {
+    color:black;
+    selection-color: #865D9E;
+}
+
+QComboBox#comboBoxTask QAbstractItemView:disabled {
+    color:gray;
+}
+

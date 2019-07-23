@@ -1,0 +1,32 @@
+QFrame#frameNotification
+{
+    background:lavender;
+    border-radius:5px;
+}
+
+QLabel#labelLogo
+{
+   font-size:10px;
+}
+
+QLabel#labelBoardName
+{
+   font-size:12px;
+   font-weight:bold;
+   color:black;
+}
+
+QLabel#labelImageDone
+{
+    border-image:url(":/image/Image/notification_taskdone.png");
+}
+
+QLabel#labelTaskName
+{
+    font-size:14px;
+}
+
+QLabel#labelClose
+{
+  font-size:13px;
+}

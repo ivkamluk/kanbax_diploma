@@ -1,0 +1,116 @@
+QWidget#widgetTaskTime
+{
+    background: #FFF4F4;
+    border:2px solid red;
+    border-radius:5px;
+}
+
+QMenu
+{
+    border-radius:5px;
+    background:rgb(236,236,236);
+}
+
+QMenu::item:selected
+{
+   color:white;
+   background-color:rgb(66,120,245);
+}
+
+QLabel#labelTextEndTime
+{
+    font-size:11px;
+    color: black;
+}
+
+QLineEdit#editlineTaskTime
+{
+    color:black;
+    font-weight:bold;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size:14px;
+}
+
+#labelSelectDateTime
+{
+    border-image:url(":/image/Image/select_datetime.png");
+    padding:10px;
+    background: #FFF4F4;
+    border-radius:5px;
+}
+
+QToolTip
+{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius:2px;
+}
+
+#labelSelectDateTime:hover
+{
+    border-image:url(":/image/Image/select_datetime_hover.png");
+    padding:10px;
+    background: #FFF4F4;
+    border-radius:5px;
+}
+
+QWidget#widgetDisabledTaskName
+{
+    background:#FCF4EA;
+    border-radius:2px;
+    border:1px solid white;
+}
+
+QLabel#labelTaskName
+{
+    font-size:12px;
+    background:white;
+    color:black;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+#buttonDecline
+{
+    background-color:transparent;
+    color:black;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonDecline:pressed
+{
+    color: #423D3B;
+}
+
+#buttonAccept
+{
+    background-color:#9b59b6;
+    color:white;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    font-size:12px;
+    text-align:right;
+}
+
+#buttonAccept:hover
+{
+    background-color:#773e8e;
+}
+
+#buttonAccept:pressed
+{
+   background-color:#4b2759;
+}
+
+#buttonAccept:disabled
+{
+    background-color:#d9d9d9;
+    border:white;
+}

@@ -1,0 +1,93 @@
+QWidget#widgetDateTime
+{
+    background:gray;
+}
+
+QWidget#widgetSectionTime
+{
+    background:lavender;
+}
+
+QCalendarWidget#calendarDateTime QAbstractItemView:enabled
+{
+    alternate-background-color: white;
+    selection-background-color: red;
+    selection-color: white;
+    color:white;
+    alternate-background-color: black;
+}
+
+QCalendarWidget#calendarDateTime QAbstractItemView:disabled
+{
+    color: gray;
+}
+
+QCalendarWidget#calendarDateTime QTableItemView
+{
+    background:cyan;
+}
+
+QCalendarWidget#calendarDateTime
+{
+   background:yellow;
+}
+
+QCalendarWidget#calendarDateTime QToolButton
+{
+    color: white;
+    font-weight:bold;
+}
+
+/* navigation bar */
+QCalendarWidget#calendarDateTime QWidget#qt_calendar_navigationbar
+{
+    color:white;
+    border-radius:5px;
+    background:red;
+}
+
+#comboBoxTimeHours, #comboBoxTimeMinutes, #comboBoxFormat12Hours
+{
+    combobox-popup: 0;
+    font-size:13px;
+    font-weight:bold;
+    min-height:20px;
+    background:transparent;
+}
+
+
+QComboBox#comboBoxTimeHours, QComboBox#comboBoxTimeMinutes,
+QComboBox#comboBoxFormat12Hours {
+    color:black;
+    selection-color: #865D9E;
+}
+
+QComboBox#comboBoxTimeHours QAbstractItemView
+{
+    background:white;
+    border-radius:2px;
+}
+
+QComboBox#comboBoxTimeMinutes QAbstractItemView
+{
+    background:white;
+    border-radius:2px;
+}
+
+QComboBox#comboBoxFormat12Hours QAbstractItemView
+{
+    background:white;
+    border-radius:2px;
+}
+
+QMenu
+{
+    border-radius:5px;
+    background:rgb(236,236,236);
+}
+
+QMenu::item:selected
+{
+   color:white;
+   background-color:rgb(66,120,245);
+}

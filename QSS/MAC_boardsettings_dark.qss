@@ -1,0 +1,136 @@
+QFrame#frameBoardSettings
+{
+    background: #2d2d2d;
+    border-radius:5px;
+}
+
+QLabel#labelBoardSettingsName
+{
+    background:yellow;
+    color:black;
+    font-size:15px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    font-weight:bold;
+}
+
+QLabel#labelTitleBoardName
+{
+    font-size:12px;
+    color:white;
+}
+
+QMenu
+{
+    border-radius:5px;
+    background:rgb(236,236,236);
+}
+
+QMenu::item:selected
+{
+   color:white;
+   background-color:rgb(66,120,245);
+}
+
+#editlineBoardName
+{
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-bottom: 1px solid black;
+    background:transparent;
+    font-size:14px;
+}
+
+QLabel#labelTitleNotificationSound
+{
+    font-size:12px;
+    color:white;
+}
+
+QLabel#labelRemoveTasks
+{
+    font-size:14px;
+    font-weight:bold;
+    color:#DA4167;
+    border-radius:10px;
+    padding:5px 5px 5px 5px;
+}
+
+QLabel#labelRemoveTasks:hover
+{
+   color:red;
+}
+
+QLabel#labelTitleRemoveBoard
+{
+    font-size:13px;
+    color:#DA4167;
+}
+
+QLabel#labelTitleRemoveBoard:hover
+{
+    color:red;
+}
+
+#labelImageRemoveBoard
+{
+    border-image:url(":/image/Image/trash_board.png");
+}
+
+#labelImageRemoveBoard:hover
+{
+    border-image:url(":/image/Image/trash_board_hover.png");
+}
+
+#buttonClose
+{
+    color:#bdbdbd;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+#buttonClose:pressed
+{
+    color:#CFCFCF;
+}
+
+#buttonSave
+{
+    background-color:#9b59b6;
+    color:white;
+    border-radius:5px;
+    padding: 5px 8px 5px 8px;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#buttonSave:hover
+{
+    background-color:#773e8e;
+}
+
+#buttonSave:pressed
+{
+   background-color:#4b2759;
+}
+
+#buttonSave:disabled
+{
+    background-color:#d9d9d9;
+    border:white;
+}
+
+QLabel#labelAlert
+{
+    font-size:11px;
+    text-align:center;
+    font-weight:bold;
+    padding:10px 10px 10px 10px;
+    border-radius:5px;
+}

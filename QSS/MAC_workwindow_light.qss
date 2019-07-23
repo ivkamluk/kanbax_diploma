@@ -1,0 +1,164 @@
+QListWidget#listWidgetMenu
+{
+    background:#865D9E;
+    border-bottom:none;
+    border-right:none;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border:1px solid #865D9E;
+}
+
+QListWidget#listWidgetMenu::item:selected
+{
+    background:#B297C1;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+
+QListWidget#listWidgetMenu::item
+{
+    padding-left:4px;
+    border-bottom:1px solid transparent;
+}
+
+QListWidget#listWidgetMenu::item:hover
+{
+    background: #B297C1;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+
+QListWidget#listWidgetControl
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top:1px solid lavender;
+    background:lavender;
+ }
+
+QListView#listWidgetControl::item
+{
+   background:lavender;
+   padding-left:8px;
+}
+
+QListView#listWidgetControl::item:selected
+{
+   background:lavender;
+}
+
+ExtendedWidget#widgetSettingsUser
+{
+  background: yellow;
+  border-radius:20px;
+}
+
+ExtendedWidget#widgetSettingsUser:hover
+{
+  background:lavender;
+}
+
+QLabel#userName
+{
+    color:black;
+    font: bold 13px 'Comic Sans';
+}
+
+QLineEdit#userSearch
+{
+    background: transparent;
+    border:none;
+    color:white;
+    font: 14px 'Andale Mono';
+}
+
+QWidget#widgetIconEditLine
+{
+  border:2px solid yellow;
+  border-radius:20px;
+}
+
+QWidget#widgetIconEditLine:hover
+{
+  border:2px solid #ffe6cc;
+}
+
+QWidget#widgetIconEditLine:hover
+{
+    background-color:transparent;
+}
+
+QLabel#labelIconSearch
+{
+  background-color:transparent;
+}
+
+#labelTextLogo
+{
+  font-size:40px;
+  font-family: "Heiti TC";
+  color: lavender;
+}
+
+QLabel#labelStatusConnection
+{
+    font-size:10px;
+    font-weight:bold;
+    border-radius:2px;
+    padding:0px 4px 0px 4px;
+}
+
+QScrollBar:horizontal
+{
+    height:9px;
+}
+
+QScrollBar::handle:horizontal
+{
+    background:#865D9E;
+    border-radius:3px;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    background:none;
+}
+
+QScrollBar::add-line:horizontal
+{
+    background:none;
+}
+
+QScrollBar:vertical
+{
+    width: 9px;
+}
+
+QScrollBar::handle:vertical
+{
+    background:#865D9E;
+    border-radius:3px;
+}
+
+QScrollBar::sub-line:vertical
+{
+    background:none;
+}
+
+QScrollBar::add-line:vertical
+{
+    background:none;
+}
+
+QAbstractScrollArea::corner
+{
+    background: transparent;
+}
+
+QToolTip
+{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius:2px;
+}

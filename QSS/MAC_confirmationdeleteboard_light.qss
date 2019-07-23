@@ -1,0 +1,35 @@
+QFrame#frame
+{
+    background:#BD90D2;
+    border-radius:15px;
+    border:2px solid yellow;
+}
+
+QPushButton#buttonCancel
+{
+    color: black;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+QPushButton#buttonCancel:hover
+{
+    color:#2E2E2E;
+}
+
+QPushButton#buttonDelete
+{
+    background-color:red;
+    color:white;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+QPushButton#buttonDelete:pressed
+{
+    background-color:#990000;
+}
+
+
